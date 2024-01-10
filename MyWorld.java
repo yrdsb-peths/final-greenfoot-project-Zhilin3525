@@ -19,6 +19,7 @@ public class MyWorld extends World
         super(600, 400, 1);
         prepare();
     }
+    
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
@@ -29,5 +30,7 @@ public class MyWorld extends World
         addObject(apple,292,136);
         apple.setLocation(296,150);
         apple.setLocation(296,150);
+        Elephant elephant = new Elephant();
+        addObject(elephant,268,237);
     }
 }
